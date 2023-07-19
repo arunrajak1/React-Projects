@@ -1,0 +1,109 @@
+.header-container {
+  display: flex;
+  flex-direction:row;
+  height: 100%;
+  width: auto;
+  background-color: var(--mantine-color-gray-0);
+  /* box-shadow: var(--mantine-shadow-md); */
+}
+
+.header-container .header {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-container .header .header-text {
+  font-weight: bold;
+  font-size: 2em;
+  color: white
+}
+
+.header-container .header .header-image {
+  min-width: 1.5em;
+  min-height: 1.5em;
+  max-width: 1.5em;
+  max-height: 1.5em;
+}
+
+.header-container .sidebar {
+  color: var(--mantine-color-gray-7);
+}
+
+.footer-container {
+  display: flex;
+  font-size: small;
+  white-space: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--mantine-color-gray-3);
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.footer {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--mantine-color-dimmed);
+}
+
+.navbar-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.dashboard-navbar {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.dashboard-navbar  .navbar-collapse-button {
+  display: flex;
+  justify-content: center;
+  font-family: var(--mantine-font-family);
+  line-height: var(--mantine-line-height);
+}
+
+.dashboard-navbar  .navbar-collapse-button .icon {
+  /* right: calc(-0.7rem); */
+  color: var(--mantine-color-gray-5);
+}
+
+.page-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 90%;
+}
+
+.page-content .grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tile .tile-content {
+  display: flex;
+  height: 15em;
+  width: 100%;
+  min-width: 100%;
+}
